@@ -26,7 +26,7 @@ pip install -r requirements.txt
 #    BOT_TOKEN=123456:ABC...
 
 # 4. Запустите Edge с отладочным портом (для парсинга TGStat):
-"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --remote-debugging-port=9222 --user-data-dir="C:\Users\Hp\AppData\Local\Temp\opencode\edge_profile"
+"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --remote-debugging-port=9222 --user-data-dir="%USERPROFILE%\AppData\Local\Temp\opencode\edge_profile"
 
 # 5. Запустите бота
 python bot.py
