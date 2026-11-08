@@ -1,0 +1,20 @@
+# Секреты
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Данные и выгрузки
+data/
+exports/
+sessions/
+*.db
+*.sqlite3
+
+# Логи
+*.log
